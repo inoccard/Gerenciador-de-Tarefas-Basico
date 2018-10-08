@@ -1,0 +1,64 @@
+body {
+    font-family: Sans-serif;
+    background-color: #cccccc;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+}
+
+.erro {
+    color: #F44;
+}
+
+fieldset {
+    border: 3px double #333;
+    color: #000;
+    margin: 10px 0 0 0;
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 0 0;
+}
+
+input[type=text],
+textarea {
+    width: 50%;
+    border: 1px solid #333;
+    padding: 3px;
+    border-radius: 6px;
+}
+input[type=email],input[type=tel]{
+	border: 1px solid #333;
+    padding: 3px;
+    border-radius: 6px;
+}
+
+input[type=submit] {
+    float: right;
+    clear: both;
+    margin-top: 4px;
+    margin-right: -8px;
+    border-radius: 6px;
+    border-color: #555; 
+}
+table{
+    width: 100%;
+    border-radius: 8px;
+}
+
+table th {
+    background-color: #EEE;
+    font-size: 18px;
+
+}
+
+table td {
+    border-bottom: 1px solid #333;
+    color: #000;
+   	border-radius: 8px;
+   	text-align: center;
+}
